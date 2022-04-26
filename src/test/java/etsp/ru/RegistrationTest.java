@@ -48,9 +48,7 @@ public class RegistrationTest {
         // Нажать на кнопку Зарегистрироваться
        // $x("//input[@value='Зарегистрироваться']").click();
 
-
-      sleep(30000);
-
+    sleep(2000);
     }
 
 

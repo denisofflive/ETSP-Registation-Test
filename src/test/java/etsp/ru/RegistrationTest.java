@@ -1,7 +1,9 @@
 package etsp.ru;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.Allure;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -46,7 +48,9 @@ public class RegistrationTest {
        $("#PasswordConfirm").setValue("1B3456789");
        //$("recaptcha-checkbox-border").click();
         // Нажать на кнопку Зарегистрироваться
-       // $x("//input[@value='Зарегистрироваться']").click();
+        $x("//input[@value='Зарегистрироваться']").click();
+
+        Allure.addAttachment("Page Source", "text/html", WebDriverRunner.source(), "html");
 
     sleep(2000);
     }

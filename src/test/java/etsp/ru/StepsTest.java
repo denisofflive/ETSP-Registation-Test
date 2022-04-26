@@ -1,10 +1,13 @@
 package etsp.ru;
 
+import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import java.nio.charset.StandardCharsets;
 
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
@@ -49,6 +52,8 @@ public class StepsTest {
         step("Нажать на кнопку Зарегистрироваться", () -> {
             $x("//input[@value='Зарегистрироваться']").click();
         });
+
+        Allure.addAttachment("Page Source", "text/html", WebDriverRunner.source(), "html");
 
         sleep(2000);
 

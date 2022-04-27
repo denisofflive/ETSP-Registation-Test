@@ -7,8 +7,6 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.nio.charset.StandardCharsets;
-
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
@@ -58,7 +56,7 @@ public class StepsTest {
 
         Allure.addAttachment("Page Source", "text/html", WebDriverRunner.source(), "html");
 
-        sleep(2000);
+        sleep(1000);
 
     }
 }

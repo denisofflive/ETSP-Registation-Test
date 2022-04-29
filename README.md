@@ -21,5 +21,9 @@ Java Gradle IntelliJ IDEA Selenide JUnit5 Allure Report
 ![This is an image](/design/images/Java.png)![This is an image](/design/images/Gradle.png)![This is an image](/design/images/Intelij_IDEA.png)![This is an image](/design/images/Selenide.png)![This is an image](/design/images/JUnit5.png)![This is an image](/design/images/Allure_Report.png)
 
 ### Пример отчёта выполнения автотеста в Allure
-![This is an image](/design/images/001.png) ![This is an image](/design/images/002.png)
+![This is an image](/design/images/001.png)   ![This is an image](/design/images/002.png)
 #### *После окончания выполнения автотестов по каждому из них в отчёте доступны скриншоты и исходный код страницы.
+
+
+### Пример видеозаписи прохождения теста
+![This is an image](/design/images/omega_test.gif)

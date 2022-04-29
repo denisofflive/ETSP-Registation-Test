@@ -15,7 +15,7 @@
 - [x] Ввести пароль
 - [x] Нажать на кнопку Зарегистрироваться
 
-## Проект реализован с использованием
+## Проект реализован с использованием:
 Java Gradle IntelliJ IDEA Selenide JUnit5 Allure Report
 
 ![This is an image](/design/images/Java.png)![This is an image](/design/images/Gradle.png)![This is an image](/design/images/Intelij_IDEA.png)![This is an image](/design/images/Selenide.png)![This is an image](/design/images/JUnit5.png)![This is an image](/design/images/Allure_Report.png)
